@@ -1,1 +1,3 @@
 A collection of personal datfiles created for various arcade, computer and console systems.  These datfiles are simply a collection of file hashes and are used to verify your own copies of legally owned media.
+
+To download the dats, view them in the Releases section   ---------------------------->

@@ -2,9 +2,13 @@
 
 If you're here for the dats, you can find them in the Releases section. --->
 
-For decades, I have enjoyed curating and creating collections of video game-related content. I exclusively use [RomVault](https://www.romvault.com) as my rom manager tool of choice to manage and audit my data. As a more advanced user of its features, I tend to push it to its limits (and sometimes beyond). RomVault gives me freedom to create more complex datfiles, such as deep hierarchical trees of folders and files which can even include zero-byte files and empty folders. Some of the datfiles presented here are more advanced than your garden variety flat-folder style dats that only contain archives.
+For decades, I have enjoyed curating and creating collections of video game-related content. I exclusively use [RomVault](https://www.romvault.com) (aka RV) as my rom manager tool of choice to manage and audit my data. As a more advanced user of its features, I tend to push it to its limits (and sometimes beyond). RomVault gives me freedom to create more complex datfiles, such as deep hierarchical trees of folders and files which can even include zero-byte files and empty folders. Some of the datfiles presented here are more advanced than your garden variety flat-folder style dats that only contain archives.
 
-To preserve some types of data, it might be best to store it as files, and treat everything including .zip and .7zip archives as files too. This comes in handy for sets that I may want to present as ready-to-play and I don't want to be packing all the game files into individual zips. Some game-related files may also need to be left uncompressed. And some collections have folders of files that would create Zips in the 100's of GB of size, which become unweilding and very difficult to manage effectively.
+To preserve some types of data, it might be best to store it as files, and treat everything including .zip and .7z archives as files. This comes in handy for sets that I may want to present as ready-to-play, or for preserving archives and files that contain system-sensitive timestamps (generic dat timestamps are not yet supported in RV). There are also file collections that would create archvies possibly in the in the hundreds of gigabytes in size, which become very difficult to manage effectively for most users of my dats. The main idea with my collections is to strike a balance between:
+- preservation effectiveness (do the files presented need to be stored in a specific way?),
+- curation quality (are the files and folders arranged in a sensible way that make it easy to navigate),
+- usability (are the files going to be utilized by the user at times, such as in an emulator), and
+- sanity when managing these files (don't intentionally make insanely large archives which become unweildly)
 
 # Archive Types Reviewed
 

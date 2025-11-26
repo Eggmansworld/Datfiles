@@ -10,6 +10,8 @@ To preserve some types of data, it might be best to store it as files, and treat
 - usability (are the files going to be utilized by the user at times, such as in an emulator), and
 - sanity when managing these files (don't intentionally make insanely large archives which become unweildly)
 
+Below are some notes I have put together to assist users in understanding some of the more advanced and tricky features of managing their collections with RV. Hopefully I've been able to pass on the information in an understandable way without confusing anyone. If something does not make sense to you, please be sure to stop by the RomVault [Discord](https://discord.gg/fVJQPA8) and ask your questions!
+
 # Archive Types Reviewed
 
 When working with datfiles, you can modify the Archive Type of a folder by right-clicking on the folder and selecting "Set Dir Dat Settings". There are 4 modes you can set that affect how each folder is stored and processed:

@@ -1,6 +1,12 @@
 ## Welcome to my personal collection of datfiles I curate for various arcade, computer and console systems.  These datfiles are collections of file hashes and are used to verify legally owned copies of digital media. 
 
-If you're here for the dats, you can find them in the Releases section. --->
+If you would like to support this project, you have my gratitude! It will only be put towards expanding the storage needs for the project data.
+
+<a href="https://buymeacoffee.com/eggmansworld">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" height="45" alt="Buy Me a Coffee">
+</a>
+
+## If you're here for the dats, you can find them in the Releases section. --->
 
 For decades, I have enjoyed curating and creating collections of video game-related content. I exclusively use [RomVault](https://www.romvault.com) (aka RV) as my rom manager tool of choice to manage and audit my data. As a more advanced user of its features, I tend to push it to its limits (and sometimes beyond). RomVault gives me freedom to create more complex datfiles, such as deep hierarchical trees of folders and files which can even include zero-byte files and empty folders. Some of the datfiles presented here are more advanced than your garden variety flat-folder style dats that only contain archives.
 

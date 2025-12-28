@@ -1,6 +1,6 @@
 ## Welcome to my personal collection of datfiles I curate for various arcade, computer and console systems.  These datfiles are collections of file hashes and are used to verify legally owned copies of digital media. 
 
-If you would like to support this project, you have my gratitude! It will only be put towards items such as expanding the storage needs for the project data.
+If these tools, dats, or archives save you time or preserve history, consider supporting the work:
 
 <a href="https://buymeacoffee.com/eggmansworld">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" height="45" alt="Buy Me a Coffee">

@@ -1,0 +1,81 @@
+PRESERVATION NOTICE / SCOPE CLARIFICATION
+
+This repository contains a mixture of original tooling and third-party or
+historical materials preserved for documentation, research, and archival
+purposes.
+
+----------------------------------------------------------------------
+LICENSE SCOPE
+----------------------------------------------------------------------
+
+The MIT License included in this repository applies ONLY to original source
+code, scripts, tooling, documentation text, and other materials authored
+by Eggmansworld, unless otherwise explicitly stated.
+
+This includes, but is not limited to:
+- Python, PowerShell, batch, or shell scripts
+- Build tools and automation
+- Original documentation and notes
+- Repository structure and metadata authored here
+
+Original metadata schemas and hand-authored XML/DAT files are considered authored works and are included under the MIT License.
+
+----------------------------------------------------------------------
+EXCLUDED MATERIALS
+----------------------------------------------------------------------
+
+The MIT License does NOT apply to any of the following, regardless of
+storage format or compression:
+
+- ROM images
+- Disk images (HDD, SSD, CF, SD, etc.)
+- Optical disc images (CD, DVD, LD, BD)
+- CHDs or other derived archival formats
+- Firmware, BIOS, or boot images
+- Executable binaries
+- Game assets (audio, video, graphics, fonts)
+- Configuration files originating from commercial software
+- Any data not authored by Eggmansworld
+
+All such materials remain the property of their respective copyright
+holders.
+
+----------------------------------------------------------------------
+PRESERVATION INTENT
+----------------------------------------------------------------------
+
+Excluded materials are provided strictly for:
+- Preservation
+- Documentation
+- Research
+- Verification
+- Historical reference
+
+No claim of ownership is made over excluded materials.
+No license grant is implied.
+No redistribution rights are asserted beyond what is permitted by
+applicable law.
+
+----------------------------------------------------------------------
+ATTRIBUTION AND SOURCES
+----------------------------------------------------------------------
+
+Where possible, original developers, publishers, hardware vendors,
+and contributors are credited within documentation or repository metadata.
+
+If attribution is missing or incorrect, it is unintentional and should
+be reported so it can be corrected.
+
+----------------------------------------------------------------------
+NO WARRANTY
+----------------------------------------------------------------------
+
+All materials are provided "AS IS", without warranty of any kind.
+Use at your own risk.
+
+----------------------------------------------------------------------
+QUESTIONS OR CONCERNS
+----------------------------------------------------------------------
+
+If you are a rights holder and believe material in this repository should
+not be present, contact the repository owner to resolve the issue.

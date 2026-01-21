@@ -97,3 +97,15 @@ FileOnly ToSorts are perfect for adding content you absolutely DO NOT want modif
 
 <img width="929" height="355" alt="image" src="https://github.com/user-attachments/assets/e29bac89-e740-4688-9fca-bd30ee29d532" />
 
+---
+
+## Licensing
+
+Original source code, scripts, tooling, and hand-authored documentation and
+metadata in this repository are licensed under the MIT License.
+
+Archived game data, binaries, firmware, media assets, and other third-party
+materials are **not** covered by the MIT License and remain the property of
+their respective copyright holders.
+
+See the `LICENSE` and `NOTICE` files for full details and scope clarification.

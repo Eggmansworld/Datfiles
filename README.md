@@ -1,4 +1,5 @@
 ## Welcome to my personal collection of datfiles I curate for various arcade, computer and console systems.  These datfiles are collections of file hashes and are used to verify legally owned copies of digital media. 
+<img width="1536" height="645" alt="image" src="https://github.com/user-attachments/assets/b4559b22-2408-46d8-8cd0-c0c036330760" />
 
 If these tools, dats, or archives save you time, consider supporting the work:
 

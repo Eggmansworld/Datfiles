@@ -6,7 +6,30 @@ If these tools, dats, or archives save you time, consider supporting the work:
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" height="45" alt="Buy Me a Coffee">
 </a>
 
-## If you're here for the dats, you can find them in the Releases section. --->
+## If you're here for the dats, you can find them in the Releases section, or click a link below:
+- [Arcade Ambience Project](https://github.com/Eggmansworld/Datfiles/releases/tag/arcadeambience)
+- [BlueMaxima.org Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/bluemaxima)
+- [Commodore 64 Ultimate Tape Archive](https://github.com/Eggmansworld/Datfiles/releases/tag/c64ultimatetape)
+- [Digitoxin's PC Game Preservation Project](https://github.com/Eggmansworld/Datfiles/releases/tag/digitoxin)
+- [eXo Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/exo)
+- [Fruit Machines, The Private Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/fruitmachines)
+- [GoodTools Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/goodtools)
+- [High Voltage SID Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/hvsc)
+- [iPod Clickwheel Games Preservation Project](https://github.com/Eggmansworld/Datfiles/releases/tag/ipodclickwheel)
+- [Laserdisc Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/laserdisc)
+- [Pinball PC Games Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/pinballpc)
+- [Project EGG Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/projectegg)
+- [RPG Maker Archive](https://github.com/Eggmansworld/Datfiles/releases/tag/rpgmaker)
+- [Sega ALL.Net Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/segaalldotnet)
+- [Sharp X68000 Project](https://github.com/Eggmansworld/Datfiles/releases/tag/sharpx68000)
+- [TeknoParrot Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/teknoparrot)
+- [Touhou Project Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/touhou)
+
+## The following collections have their own repositories:
+- [DUSTBUNNiES Collection](https://github.com/Eggmansworld/DUSTBUNNiES)
+- [Eggman’s Arcade Repository](https://github.com/Eggmansworld/Eggmans-Arcade-Repository)
+
+---
 
 For decades, I have enjoyed curating and creating collections of video game-related content. I exclusively use [RomVault](https://www.romvault.com) (aka RV) as my rom manager tool of choice to manage and audit my data. As a more advanced user of its features, I tend to push it to its limits (and sometimes beyond). RomVault gives me freedom to create more complex datfiles, such as deep hierarchical trees of folders and files which can even include zero-byte files and empty folders. Some of the datfiles presented here are more advanced than your garden variety flat-folder style dats that only contain archives.
 

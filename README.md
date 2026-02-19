@@ -63,8 +63,9 @@ Detailed info on archive types is available in the RV [Wiki](https://wiki.romvau
 
 A "Mixed (Archive as File)" dat is to store every single file in the dat as files, including .zip and .7z archives. In this mode, Unlike the "Zip" and "7Zip" Archive Type settings, RomVault will not browse inside any .zip or .7z archives to see what files/folders they contain. It treats those archive files just like any non-compressed file. This is done to preserve the files and archives in their natural state. The only thing that RomVault can alter on files in and Archive as File dat is their naming.
 
-When an Archive as File dat is created, a datfile author should be setting an attribute in the datfile header to indicate that its contents are to be processed in Archive as File mode.  When you load an an Archive as File dat in a text editor, you should see the following line in the <header> of the datfile:
-<romvault forcepacking="fileonly" />
+When an Archive as File dat is created, a datfile author should be setting an attribute in the datfile header to indicate that its contents are to be processed in Archive as File mode.  When you load an an Archive as File dat in a text editor, you should see the following line in the header of the datfile: 
+
+```<romvault forcepacking="fileonly" />```
 
 If the dat is created with the intent of hashing only files and this attribute is missing from the dat, the datter expects you to set the Archive Type manually. This isn't an ideal expectation as the structure of an Archive as File dat differs from a standard dat, and can really mess things up if you start compressing the files rather than storing them only as files.
 

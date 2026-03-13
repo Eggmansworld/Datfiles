@@ -10,7 +10,8 @@ If these tools, dats, or archives save you time, consider supporting the work:
 ## If you're here for the dats, you can find them in the Releases section, or click a link below:
 - [Arcade Ambience Project](https://github.com/Eggmansworld/Datfiles/releases/tag/arcadeambience)
 - [BlueMaxima.org Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/bluemaxima)
-- [Commodore 64 Ultimate Tape Archive](https://github.com/Eggmansworld/Datfiles/releases/tag/c64ultimatetape)
+- [C64 Ultimate Tape Archive](https://github.com/Eggmansworld/Datfiles/releases/tag/c64ultimatetape)
+- [VIC20 Ultimate Tape Archive](https://github.com/Eggmansworld/Datfiles/releases/tag/vic20ultimatetape)
 - [Digitoxin's PC Game Preservation Project](https://github.com/Eggmansworld/Datfiles/releases/tag/digitoxin)
 - [eXo Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/exo)
 - [Fruit Machines, The Private Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/fruitmachines)

@@ -11,7 +11,6 @@ If these tools, dats, or archives save you time, consider supporting the work:
 - [Arcade Ambience Project](https://github.com/Eggmansworld/Datfiles/releases/tag/arcadeambience)
 - [BlueMaxima.org Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/bluemaxima)
 - [C64 Ultimate Tape Archive](https://github.com/Eggmansworld/Datfiles/releases/tag/c64ultimatetape)
-- [VIC20 Ultimate Tape Archive](https://github.com/Eggmansworld/Datfiles/releases/tag/vic20ultimatetape)
 - [Digitoxin's PC Game Preservation Project](https://github.com/Eggmansworld/Datfiles/releases/tag/digitoxin)
 - [eXo Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/exo)
 - [Fruit Machines, The Private Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/fruitmachines)
@@ -27,6 +26,7 @@ If these tools, dats, or archives save you time, consider supporting the work:
 - [TeknoParrot Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/teknoparrot)
 - [The Most Complete Amiibo Set](https://github.com/Eggmansworld/Datfiles/releases/tag/mcas)
 - [Touhou Project Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/touhou)
+- [VIC20 Ultimate Tape Archive](https://github.com/Eggmansworld/Datfiles/releases/tag/vic20ultimatetape)
 
 ## The following collections have their own repositories:
 - [DUSTBUNNiES Collection](https://github.com/Eggmansworld/DUSTBUNNiES)

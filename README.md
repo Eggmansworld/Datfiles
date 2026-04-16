@@ -1,4 +1,7 @@
-## Welcome to my personal collection of datfiles I curate for various arcade, computer and console systems.  These datfiles are collections of file hashes and are used to verify legally owned copies of digital media. 
+## Welcome to my personal collection of datfiles I curate for various arcade, computer and console systems.
+
+These datfiles are collections of file hashes used to verify and organize legally owned copies of digital media. The goal is not just to hash files for the sake of hashing them, but to present preservation-focused sets in a way that is practical to manage, sensible to browse, and appropriate to the type of content being preserved.
+
 <img width="1536" height="645" alt="image" src="https://github.com/user-attachments/assets/b4559b22-2408-46d8-8cd0-c0c036330760" />
 
 If these tools, dats, or archives save you time, consider supporting the work:
@@ -34,93 +37,270 @@ If these tools, dats, or archives save you time, consider supporting the work:
 
 ---
 
-For decades, I have enjoyed curating and creating collections of video game-related content. I exclusively use [RomVault](https://www.romvault.com) (aka RV) as my rom manager tool of choice to manage and audit my data. As a more advanced user of its features, I tend to push it to its limits (and sometimes beyond). RomVault gives me freedom to create more complex datfiles, such as deep hierarchical trees of folders and files which can even include zero-byte files and empty folders. Some of the datfiles presented here are more advanced than your garden variety flat-folder style dats that only contain archives.
+## What this repository is for
 
-To preserve some types of data, it might be best to store it as files, and treat everything including .zip and .7z archives as files. This comes in handy for sets that I may want to present as ready-to-play, or for preserving archives and files that contain system-sensitive timestamps (generic dat timestamps are not yet supported in RV). There are also file collections that would create archvies possibly in the in the hundreds of gigabytes in size, which become very difficult to manage effectively for most users of my dats. The main idea with my collections is to strike a balance between:
-- preservation effectiveness (do the files presented need to be stored in a specific way?),
-- curation quality (are the files and folders arranged in a sensible way that make it easy to navigate),
-- usability (are the files going to be utilized by the user at times, such as in an emulator), and
-- sanity when managing these files (don't intentionally make insanely large archives which become unweildly)
+For decades, I have enjoyed curating and building collections of video game-related content. This repository is where I publish the datfiles I use to organize, verify, and preserve many of those collections.
 
-Below are some notes I have put together to assist users in understanding some of the more advanced and tricky features of managing their collections with RV. Hopefully I've been able to pass on the information in an understandable way without confusing anyone. If something does not make sense to you, please be sure to stop by the RomVault [Discord](https://discord.gg/fVJQPA8) and ask your questions!
+Some of these sets are simple and conventional. Others are deliberately more advanced and make use of features that many ROM managers either do not support well, or do not support at all. A lot of my dats are designed around real-world preservation needs rather than around the older expectation that every set should be a flat list of archives in one folder.
 
-# Archive Types Reviewed
+That is why this repo is built around **RomVault**.
 
-When working with datfiles, you can modify the Archive Type of a folder by right-clicking on the folder and selecting "Set Dir Dat Settings". There are 4 modes you can set that affect how each folder is stored and processed:
+---
+
+## Why I use RomVault
+
+I exclusively use [RomVault](https://www.romvault.com) (also called **RV**) as my ROM manager of choice.
+
+RomVault gives me the flexibility to build and manage collections that go beyond basic archive-only sets. Depending on the needs of the material, a collection may need to preserve things such as:
+
+- deeply nested folder structures
+- uncompressed files
+- ZIP or 7z archives treated as normal files
+- zero-byte files
+- empty folders
+- content that is meant to stay in a ready-to-use layout instead of being repacked into giant archives
+
+Those are all situations where RomVault is especially useful.
+
+A lot of the dats here are not “garden variety” flat-folder dats. Some are straightforward archive sets, but others are structured more like real software collections or preservation trees. In those cases, the way the files are stored matters just as much as the hashes themselves.
+
+So when I design a collection, I usually try to balance four things:
+
+- **preservation effectiveness**  
+  Does the content need to stay in a particular structure or form in order to preserve it properly?
+
+- **curation quality**  
+  Are the files and folders arranged in a way that makes sense to browse and understand?
+
+- **usability**  
+  Is this a collection people may actually want to extract, inspect, mount, or run in an emulator?
+
+- **sanity when managing it**  
+  Do not build intentionally absurd archive layouts that become a nightmare for normal users to handle.
+
+That balance is the main reason my dats sometimes behave differently from what users may expect from more traditional ROM sets.
+
+If something in this README still does not make sense, I strongly recommend stopping by the RomVault [Discord](https://discord.gg/fVJQPA8) and asking questions there.
+
+---
+
+## Table of Contents
+
+- [What this repository is for](#what-this-repository-is-for)
+- [Why I use RomVault](#why-i-use-romvault)
+- [How my datfiles and collections are generally structured](#how-my-datfiles-and-collections-are-generally-structured)
+- [Archive Types in RomVault](#archive-types-in-romvault)
+- [What is a "Mixed (Archive as File)" dat?](#what-is-a-mixed-archive-as-file-dat)
+- [How to identify a Mixed (Archive as File) dat](#how-to-identify-a-mixed-archive-as-file-dat)
+- [Important rules for fileonly / Archive as File dats](#important-rules-for-fileonly--archive-as-file-dats)
+- [Where to put files you want to rebuild from](#where-to-put-files-you-want-to-rebuild-from)
+- [Licensing](#licensing)
+- [Credits](#credits)
+
+---
+
+## How my datfiles and collections are generally structured
+
+Not every collection should be stored the same way.
+
+Some content is best handled as normal archive-based dats, where RomVault can look inside ZIPs or 7z files and rebuild individual files as needed.
+
+Other content is better preserved in a more natural state, where the original files, folders, ZIPs, and 7z archives remain exactly as they were distributed. This is especially useful for things such as:
+
+- pre-configured “ready-to-play” sets
+- software collections with important folder structure
+- collections containing archives you do **not** want RomVault to unpack and reinterpret
+- content with timestamp-sensitive files, where generic dat timestamp support is not available in RomVault
+- sets that would become unwieldy if packed into enormous archives
+
+That is why you will see different storage approaches across my dats.
+
+Broadly speaking, my collections tend to fall into one of these categories:
+
+### 1. Standard archive-based dats
+These are the traditional-style dats. RomVault can browse inside the archives, hash the internal files, and rebuild the set normally.
+
+### 2. Uncompressed structured dats
+These are still standard dats, but the content is meant to live as folders and files rather than being stored inside archives.
+
+### 3. Mixed / Archive as File dats
+These are designed so that **everything** is treated as a file, including ZIPs and 7z archives. RomVault does not browse inside the archives at all. This is the mode I use when the archive file itself is part of what is being preserved.
+
+If you keep that distinction in mind, a lot of the “why is this dat behaving like this?” confusion tends to go away.
+
+---
+
+## Archive Types in RomVault
+
+When working with datfiles in RomVault, you can modify the archive behavior of a folder by right-clicking the folder and selecting **Set Dir Dat Settings**.
+
+There are four archive modes you can work with:
 
 <img width="384" height="103" alt="image" src="https://github.com/user-attachments/assets/a81f19fd-7e68-4b0f-ab23-887f025a944d" />
 
-**Uncompressed**: This setting is only for standard datfiles and tells RomVault store the contents of the folder uncompressed instead of inside archives. Archives are stored as folders instead, one per archive. The contents of each archive will be stored inside the folder(s).
-  NOTE: if you try to select this option on an Archive as File dat and use the "Override DAT" function, you will end up with warnings of "Trying to add a FileZip to a Dir". If you make this mistake, just click OK or press the ESC key for each warning that comes up until RV finishes parsing through the datfile (it might require numerous clicks to get through all the warnings). Go back and set the mode properly.
+### Uncompressed
+This is for standard datfiles where you want the contents stored as normal files and folders instead of inside archives.
 
-**Zip**: This is the default selection. All files in the dat are processed and contained within .zip archives. Zips are fully browsable by RomVault and the files inside can be processed as required by the datfile.  Uncompressed files are not allowed in this Archive Type. You can define the deterministic compression type of these zips to use either TorrentZip or ZStd.
+If the dat expects archives, RomVault will instead store each archive as a folder and place the archive contents inside that folder.
 
-**7Zip**: Same as Zip, only it uses 7-Zip archives to store files. Compression types for 7-Zip can be LZMA Solid/Non-Solid, or ZStd Solid/Non-Solid.
+**Important note:** if you accidentally apply this to an Archive as File dat and use **Override DAT**, RomVault may throw repeated warnings such as:
 
-**Mixed (Archive as File)**: This setting is only for Mixed (Archive as File) datfiles. If the "fileonly" attribute is set in the header of the datfile, you do not need to set this mode as RV will process the dat correctly. If the fileonly mode is not present in the datfile header, then select this Archive Type mode to process all files, including archives, as simple files.  
+`Trying to add a FileZip to a Dir`
 
-Detailed info on archive types is available in the RV [Wiki](https://wiki.romvault.com/doku.php?id=archive_types).
+If that happens, just dismiss the warnings until parsing finishes, then go back and set the archive mode correctly.
 
-# What is a "Mixed (Archive as File)" dat?
+### Zip
+This is the default mode for many standard dats.
 
-A "Mixed (Archive as File)" dat is to store every single file in the dat as files, including .zip and .7z archives. In this mode, Unlike the "Zip" and "7Zip" Archive Type settings, RomVault will not browse inside any .zip or .7z archives to see what files/folders they contain. It treats those archive files just like any non-compressed file. This is done to preserve the files and archives in their natural state. The only thing that RomVault can alter on files in and Archive as File dat is their naming.
+All files are stored inside `.zip` archives. RomVault can browse those ZIPs, hash the files inside them, and rebuild content normally. Uncompressed loose files are not allowed in this mode.
 
-When an Archive as File dat is created, a datfile author should be setting an attribute in the datfile header to indicate that its contents are to be processed in Archive as File mode.  When you load an an Archive as File dat in a text editor, you should see the following line in the header of the datfile: 
+For deterministic ZIP compression, you can use either:
 
-```<romvault forcepacking="fileonly" />```
+- **TorrentZip**
+- **ZStd**
 
-If the dat is created with the intent of hashing only files and this attribute is missing from the dat, the datter expects you to set the Archive Type manually. This isn't an ideal expectation as the structure of an Archive as File dat differs from a standard dat, and can really mess things up if you start compressing the files rather than storing them only as files.
+### 7Zip
+This behaves similarly to Zip mode, except the content is stored in `.7z` archives instead.
 
-# How to identify a Mixed (Archive as File) dat
+Supported compression styles include:
 
-RomVault currently does not visually identify that an Archive as File dat has been loaded (such as displaying an icon or different folder color). When you check the Dir Dat Settings of an Archive as File dat, it will display the Archive Type as "Zip", when in fact it is actually (invisibly) setup to be processed as an Archive as File dat. The RomVault author will need to update the RV code to add something to the Dat Tree to indicate an Archive as File dat (pending).
+- **LZMA Solid**
+- **LZMA Non-Solid**
+- **ZStd Solid**
+- **ZStd Non-Solid**
+
+### Mixed (Archive as File)
+This is the special mode used for Archive as File / fileonly-style dats.
+
+In this mode, RomVault treats **all files as files**, including `.zip` and `.7z` files. It does not browse inside them.
+
+If the dat header includes the fileonly marker, RomVault should process it automatically without you needing to set this manually.
+
+Detailed archive-type documentation is also available in the RomVault [Wiki](https://wiki.romvault.com/doku.php?id=archive_types).
+
+---
+
+## What is a "Mixed (Archive as File)" dat?
+
+A **Mixed (Archive as File)** dat is a dat where every file is meant to stay a file, including archives.
+
+That means:
+
+- `.zip` files are treated as files
+- `.7z` files are treated as files
+- RomVault does **not** inspect their internal contents
+- the archive file itself is what gets preserved and hashed
+
+This is very different from standard **Zip** or **7Zip** dat behavior, where RomVault opens the archive and works with the files inside it.
+
+Archive as File mode is useful when you want to preserve content in the same state it naturally exists in. For example:
+
+- pre-built software packs
+- collections distributed as ZIP bundles
+- sets where the archive itself matters
+- content you do not want recompressed or reinterpreted internally
+
+In this mode, RomVault can still rename files if needed, but it does not get to treat the inside of an archive as rebuildable content.
+
+### The fileonly header flag
+
+If a dat is intentionally built for Archive as File mode, the dat header should contain this line:
+
+```xml
+<romvault forcepacking="fileonly" />
+```
+
+If that attribute is present, RomVault knows the dat is supposed to behave in fileonly mode.
+
+If the dat author built a fileonly-style dat but did **not** include that line, then the user is expected to set the mode manually. That is not ideal, because the structure of a fileonly dat is fundamentally different from a standard one, and it is easy for users to mis-handle it.
+
+---
+
+## How to identify a Mixed (Archive as File) dat
+
+At the moment, RomVault does **not** give Archive as File dats a strong visual identifier in the dat tree.
+
+For example, if you look at **Dir Dat Settings**, RomVault may still show the Archive Type as **Zip**, even though the dat is effectively being processed in Archive as File mode behind the scenes.
 
 <img width="711" height="384" alt="image" src="https://github.com/user-attachments/assets/cea28139-fa69-4bf7-b1a6-ea48104d5383" />
 
-A standard datfile that handles .zip and .7z internal archive contents would show the .zip and .7z archives in the Game List Grid, and when you highlight an archive file, the contents of those archives will be viewable in the Rom Details Grid.
+So how do you tell?
+
+### Standard archive-based dat behavior
+With a normal dat, ZIP and 7z archives appear in the **Game List Grid**, and when you highlight one, you can browse its contents in the **Rom Details Grid**.
 
 <img width="644" height="235" alt="image" src="https://github.com/user-attachments/assets/92289685-0783-4a99-adba-cf1f89f7fe78" />
 
-For ANY dat that is setup with "Mixed (Archive as File) mode (either by manually setting it via Set Dir Dat Settings, or contains the fileonly attribute in the dat header), you can identify by the way the contents are being displayed in the main RomVault window:
-1. the Game List Grid (upper right box) will only show folders.  
-2. The Rom Details Grid (lower right box) will only show files.  You may see various uncompressed file types listed, along with .zip and .7z listed as files. You will not be able to browse inside those archives in this view. 
+### Archive as File behavior
+With a Mixed / Archive as File dat:
 
-For MY OWN Archive as File dats, as an extra measure of safety, I also enter "Mixed (Archive as File)" in the description line of a Archive as File dat. This description line will display as part of the dat folder name and is an easy visual identifier to aid in identifying an Archive as File dat. 
+1. the **Game List Grid** (upper-right pane) will show only folders  
+2. the **Rom Details Grid** (lower-right pane) will show files only  
+3. ZIP and 7z files appear as files, not as browsable archives  
+4. you will not be able to inspect their internal contents from this view
+
+## For my own Archive as File dats, I add **“Mixed (Archive as File)”** into the description line as an extra safety cue, so the dat folder name itself gives you a visual hint about what kind of dat you are dealing with.
 
 For example:
 
 <img width="1007" height="384" alt="image" src="https://github.com/user-attachments/assets/851df0b5-e22d-4a8e-a9c5-6d2effd91027" />
 
-# For Archive as File dats that contain the fileonly attribute: 
-- do NOT make any Set Dir Dat Settings changes to the dat folder(s). RomVault will do this automatically. 
-- if placing the Archive as File dats in a subfolder in the Dat Tree that also contain standard dats, ensure the parent folder(s) in the Tree Branch do not have the "Override Dat" setting enabled. If you do, RomVault will cause the dat(s) to use the parent folder's setting via inheritance and override the fileonly dat mode in the Archive as File dat(s). You'll notice this as the folders will be shown as zips in the Game List Grid, but the files in the Rom Details Grid will still show uncompressed.
+---
+
+## Important rules for fileonly / Archive as File dats
+
+For Archive as File dats that already contain the `fileonly` attribute:
+
+- **Do not** manually change their **Set Dir Dat Settings** unless you truly know why you are doing it. RomVault should already know how to process them.
+- If these dats are placed under parent folders that use **Override DAT**, be careful. Parent inheritance can override the child dat behavior and break the expected fileonly processing.
+- If that happens, you may notice odd mixed behavior, such as ZIPs appearing in the Game List Grid while the Rom Details Grid still shows loose files.
 
 <img width="893" height="161" alt="image" src="https://github.com/user-attachments/assets/de13efa6-1da0-445f-b26c-95063f3e2225" />
 
-- To avoid this, it is likely best to keep the Archive as File dats in a separate branch in the Dat Tree with no parent inheritances.
+### Best practice
+The safest approach is usually to keep Archive as File dats in their **own separate branch** of the Dat Tree, away from parent folder inheritance settings.
 
-# Where do I put files I want to use to rebuild into a standard dat or FileOnly dat?
+That avoids a lot of accidental misconfiguration.
 
-You have 2 options:
+---
 
-## **ToSort (primary)**
+## Where to put files you want to rebuild from
 
-- files and archives placed in your primary ToSort can be used to rebuild to any dat type.
-- Zips and 7-Zips will be browsed and files inside will be hashed and accessible.
-- Archive as File dats are able to access the files inside Zip and 7-Zip archives.
-- After a find fixes operation completes, post-processing will recompress any archives inside the primary ToSort to TorrentZip or ZStd as required (depending on your top-level folder).
+If you want RomVault to rebuild files into either a standard dat or a fileonly dat, you generally have two choices.
+
+## ToSort (primary)
+
+This is the normal, main ToSort.
+
+Use it when you want maximum rebuild flexibility.
+
+### What it does
+- files and archives placed here can rebuild into any dat type
+- ZIP and 7z archives will be browsed internally
+- files inside those archives can be hashed and used
+- Archive as File dats can still access the contents inside ZIP and 7z archives that are placed here
+- after **Find Fixes**, RomVault may recompress remaining material based on the rules of your top-level folder
 
 <img width="912" height="259" alt="image" src="https://github.com/user-attachments/assets/6576a827-e23c-4d99-80ca-bcb5d695cc94" />
 
-## **ToSort (FileOnly)**
-- RomVault recently added this feature to allow users to set any additional ToSort folder(s) in FileOnly mode (right-click > Set To FileOnly ToSort).
-- This ToSort will show (FileOnly) after its name.
-- Any files placed in a FileOnly ToSort will be treated as a file.
-- Zips and 7-Zips will be treated as files, which means their contents are not browsed and hashed.
-- After a find fixes operation completes, there is no post-processing tasks done on this folder and remaining files are left untouched.
-- to remove the FileOnly setting on a ToSort, right-click and select "Clear FileOnly ToSort".
+In short, this is the flexible, “let RomVault do its thing” rebuild area.
 
-FileOnly ToSorts are perfect for adding content you absolutely DO NOT want modified in any way by RomVault.
+## ToSort (FileOnly)
+
+RomVault also supports **FileOnly ToSort** folders.
+
+You can create one by right-clicking a ToSort and selecting **Set To FileOnly ToSort**.
+
+### What it does
+- the ToSort will display **(FileOnly)** after its name
+- all files placed there are treated as files
+- ZIP and 7z archives remain files and are **not** browsed internally
+- after **Find Fixes**, RomVault does **not** perform post-processing on the leftovers
+- the remaining files stay untouched
+
+To remove the FileOnly flag later, right-click and select **Clear FileOnly ToSort**.
+
+FileOnly ToSort folders are ideal when you have material that you absolutely do **not** want RomVault to modify, unpack, reinterpret, or recompress.
 
 <img width="929" height="355" alt="image" src="https://github.com/user-attachments/assets/e29bac89-e740-4688-9fca-bd30ee29d532" />
 
@@ -136,3 +316,11 @@ materials are **not** covered by the MIT License and remain the property of
 their respective copyright holders.
 
 See the `LICENSE` and `NOTICE` files for full details and scope clarification.
+
+---
+
+## Credits
+
+Created for the preservation community by Eggman, with Claude’s help turning ideas into code.
+
+*Made with ❤️ for the retro game preservation community.*

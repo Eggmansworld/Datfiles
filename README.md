@@ -251,7 +251,7 @@ For example:
 
 For Archive as File dats that already contain the `fileonly` attribute:
 
-- **Do not** manually change their **Set Dir Dat Settings** unless you truly know why you are doing it. RomVault should already know how to process them.
+- **if you don't want to see a whole bunch of files in folders, set your "DAT Rule Settings" Single Archive to "Do not use subdirs for sets".**
 - If these dats are placed under parent folders that use **Override DAT**, be careful. Parent inheritance can override the child dat behavior and break the expected fileonly processing.
 - If that happens, you may notice odd mixed behavior, such as ZIPs appearing in the Game List Grid while the Rom Details Grid still shows loose files.
 

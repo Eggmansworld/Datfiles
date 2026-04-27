@@ -27,7 +27,7 @@ If these tools, dats, or archives save you time, consider supporting the work:
 - [Sega ALL.Net Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/segaalldotnet)
 - [Sharp X68000 Project](https://github.com/Eggmansworld/Datfiles/releases/tag/sharpx68000)
 - [TeknoParrot Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/teknoparrot)
-- [The Most Complete Amiibo Set](https://github.com/Eggmansworld/Datfiles/releases/tag/mcas)
+- The Most Complete Amiibo Set - no longer datted by me, visit [Nintendo Library](https://nintendolibrary.com) to download the latest Amiibo dat
 - [Touhou Project Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/touhou)
 - [VIC20 Ultimate Tape Archive](https://github.com/Eggmansworld/Datfiles/releases/tag/vic20ultimatetape)
 

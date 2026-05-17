@@ -21,13 +21,13 @@ If these tools, dats, or archives save you time, consider supporting the work:
 - [High Voltage SID Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/hvsc)
 - [iPod Clickwheel Games Preservation Project](https://github.com/Eggmansworld/Datfiles/releases/tag/ipodclickwheel)
 - [Laserdisc Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/laserdisc)
+- [Linux Loader Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/linuxloader)
 - [Pinball PC Games Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/pinballpc)
 - [Project EGG Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/projectegg)
 - [RPG Maker Archive](https://github.com/Eggmansworld/Datfiles/releases/tag/rpgmaker)
 - [Sega ALL.Net Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/segaalldotnet)
 - [Sharp X68000 Project](https://github.com/Eggmansworld/Datfiles/releases/tag/sharpx68000)
 - [TeknoParrot Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/teknoparrot)
-- The Most Complete Amiibo Set - no longer datted by me, visit [Nintendo Library](https://nintendolibrary.com) to download the latest Amiibo dat
 - [Touhou Project Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/touhou)
 - [VIC20 Ultimate Tape Archive](https://github.com/Eggmansworld/Datfiles/releases/tag/vic20ultimatetape)
 

@@ -34,6 +34,7 @@ If these tools, dats, or archives save you time, consider supporting the work:
 ## The following collections have their own repositories:
 - [DUSTBUNNiES Collection](https://github.com/Eggmansworld/DUSTBUNNiES)
 - [Eggman’s Arcade Repository](https://github.com/Eggmansworld/Eggmans-Arcade-Repository)
+- [Adult Visual Novels Preservation Project](https://github.com/Eggmansworld/Adult_Visual_Novels_Preservation_Project)
 
 ---
 

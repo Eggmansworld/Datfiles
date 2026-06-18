@@ -27,13 +27,13 @@ If these tools, dats, or archives save you time, consider supporting the work:
 - [RPG Maker Archive](https://github.com/Eggmansworld/Datfiles/releases/tag/rpgmaker)
 - [Sega ALL.Net Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/segaalldotnet)
 - [Sharp X68000 Project](https://github.com/Eggmansworld/Datfiles/releases/tag/sharpx68000)
-- [TeknoParrot Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/teknoparrot)
 - [Touhou Project Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/touhou)
 - [VIC20 Ultimate Tape Archive](https://github.com/Eggmansworld/Datfiles/releases/tag/vic20ultimatetape)
 
 ## The following collections have their own repositories:
 - [DUSTBUNNiES Collection](https://github.com/Eggmansworld/DUSTBUNNiES)
 - [Eggman’s Arcade Repository](https://github.com/Eggmansworld/Eggmans-Arcade-Repository)
+- [TeknoParrot Collection](https://github.com/Eggmansworld/Datfiles/TeknoParrot)
 - [Adult Visual Novels Preservation Project](https://github.com/Eggmansworld/Adult_Visual_Novels_Preservation_Project)
 
 ---

@@ -22,6 +22,7 @@ If these tools, dats, or archives save you time, consider supporting the work:
 - [iPod Clickwheel Games Preservation Project](https://github.com/Eggmansworld/Datfiles/releases/tag/ipodclickwheel)
 - [Laserdisc Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/laserdisc)
 - [Linux Loader Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/linuxloader)
+- [PCSX2x6 Arcade Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/pcsx2x6)
 - [Pinball PC Games Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/pinballpc)
 - [Project EGG Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/projectegg)
 - [RPG Maker Archive](https://github.com/Eggmansworld/Datfiles/releases/tag/rpgmaker)

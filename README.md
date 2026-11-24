@@ -35,7 +35,7 @@ If these tools, dats, or archives save you time, consider supporting the work:
 - [Eggman’s Arcade Repository](https://github.com/Eggmansworld/Eggmans-Arcade-Repository)
 - [TeknoParrot Collection](https://github.com/Eggmansworld/TeknoParrot)
 - [Adult Visual Novels Preservation Project](https://github.com/Eggmansworld/Adult_Visual_Novels_Preservation_Project)
-- [[Fruit Machines, The Private Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/fruitmachines)
+- [Fruit Machines, The Private Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/fruitmachines)
 
 ---
 

@@ -16,7 +16,6 @@ If these tools, dats, or archives save you time, consider supporting the work:
 - [C64 Ultimate Tape Archive](https://github.com/Eggmansworld/Datfiles/releases/tag/c64ultimatetape)
 - [Digitoxin's PC Game Preservation Project](https://github.com/Eggmansworld/Datfiles/releases/tag/digitoxin)
 - [eXo Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/exo)
-- [Fruit Machines, The Private Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/fruitmachines)
 - [GoodTools Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/goodtools)
 - [High Voltage SID Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/hvsc)
 - [iPod Clickwheel Games Preservation Project](https://github.com/Eggmansworld/Datfiles/releases/tag/ipodclickwheel)
@@ -26,16 +25,17 @@ If these tools, dats, or archives save you time, consider supporting the work:
 - [Pinball PC Games Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/pinballpc)
 - [Project EGG Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/projectegg)
 - [RPG Maker Archive](https://github.com/Eggmansworld/Datfiles/releases/tag/rpgmaker)
-- [Sega ALL.Net Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/segaalldotnet)
+- [Sega ALL.Net Collection (obsolete)](https://github.com/Eggmansworld/Datfiles/releases/tag/segaalldotnet)
 - [Sharp X68000 Project](https://github.com/Eggmansworld/Datfiles/releases/tag/sharpx68000)
 - [Touhou Project Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/touhou)
 - [VIC20 Ultimate Tape Archive](https://github.com/Eggmansworld/Datfiles/releases/tag/vic20ultimatetape)
 
-## The following collections have their own repositories:
+## The following collections have their own repository pages:
 - [DUSTBUNNiES Collection](https://github.com/Eggmansworld/DUSTBUNNiES)
 - [Eggman’s Arcade Repository](https://github.com/Eggmansworld/Eggmans-Arcade-Repository)
 - [TeknoParrot Collection](https://github.com/Eggmansworld/TeknoParrot)
 - [Adult Visual Novels Preservation Project](https://github.com/Eggmansworld/Adult_Visual_Novels_Preservation_Project)
+- [[Fruit Machines, The Private Collection](https://github.com/Eggmansworld/Datfiles/releases/tag/fruitmachines)
 
 ---
 
